@@ -24,6 +24,7 @@ def consolidate_cart(cart)
         :clearance => cart[index][:clearance],
         :count => 1
       }
+      new_array << new_cart_item
     end # ends if statement
    index += 1
   end #ends while statement
