@@ -14,7 +14,7 @@ def consolidate_cart(cart)
   new_array = []
   index = 0
   while index < cart.length 
-    new_cart_item = find_item_by_name_in_collection(cart[index][:item])
+    new_cart_item = find_item_by_name_in_collection(cart[index][:item], new_array)
     if cart[index][:item][:price][:clearance] == cart
    
     end # ends if statement
